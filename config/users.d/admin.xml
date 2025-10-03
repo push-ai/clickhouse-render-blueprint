@@ -1,0 +1,12 @@
+<clickhouse>
+  <users>
+    <!-- Configure default user as admin bootstrap for HTTP management -->
+    <default>
+      <!-- Replace this in non-demo environments -->
+      <password>ADMIN_PASSWORD</password>
+      <access_management>1</access_management>
+    </default>
+  </users>
+</clickhouse>
+
+
